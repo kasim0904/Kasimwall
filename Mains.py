@@ -2,7 +2,7 @@ import os
 from google import genai
 
 # 1. Habee Client-ka iyadoo la isticmaalayo API Key-gaaga
-client = genai.Client(api_key="AIzaSyBojnkUCKy6cxnj6Qsd5ux15BZt2ax6rGI")
+client = genai.Client(api_keI")
 
 # 2. Wac moodeelka Gemini 2.5 Flash
 response = client.models.generate_content(
